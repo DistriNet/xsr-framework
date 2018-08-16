@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8"/>
+<head>
+</head>
+
+<body>
+
+<p>sw</p>
+
+<script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('sw.js').then(function(reg) {
+        console.log('Yey!', reg);
+        checkOnSW();
+      }).catch(function(err) {
+        console.log('Boo!', err);
+      });
+    }
+    else {
+      console.log('No support for service workers');
+    }
+
+    function checkOnSW() {
+      if (navigator.serviceWorker.controller) {
+          var messageChannel = new MessageChannel();
+          messageChannel.port1.onmessage = function(event) {
+              console.log("Response from the SW : ", event.data.message);
+              if (event.data.message == 'Active') {
+                document.getElementById("message").innerHTML = 'The SW is active';
+              }
+              if (event.data.message == 'Done') {
+                setTimeout("document.getElementById('message').innerHTML = 'The SW is done';", 1000);
+              }
+          }
+
+          console.log("Sending to the SW");
+          navigator.serviceWorker.controller.postMessage({
+              "command": "twoWayCommunication",
+              "message": "Hi, SW"
+          }, [messageChannel.port2]);
+      } else {
+          console.log("No SW");
+      }
+}
+
+  </script>
+
+<p id="message">First visit</p>
+
+</body>
+
+</html>

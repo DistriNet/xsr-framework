@@ -1,0 +1,13 @@
+CACHE MANIFEST
+# ...
+
+CACHE:
+https://adition.com/report/?leak=appcache-cache
+
+# Won't make an initial request
+NETWORK:
+https://adition.com/report/?leak=appcache-network
+
+# Must be same-origin, but just to be thorough
+FALLBACK:
+. https://adition.com/report/?leak=appcache-fallback

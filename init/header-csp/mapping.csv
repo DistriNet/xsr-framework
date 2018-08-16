@@ -1,0 +1,7 @@
+csp-report-uri,Content-Security-Policy,"script-src 'self'; report-uri https://adition.com/report/?leak=csp-report-uri"
+csp-report-uri-2,Content-Security-Policy-Report-Only,"script-src 'self'; report-uri https://adition.com/report/?leak=csp-report-uri-2"
+csp-report-to,Content-Security-Policy,"script-src 'self'; report-to=endpoint-1"
+x-csp-report-uri,X-Content-Security-Policy,"script-src 'self'; report-uri https://adition.com/report/?leak=x-csp-report-uri"
+x-csp-report-uri-2,X-Content-Security-Policy-Report-Only,"script-src 'self'; report-uri https://adition.com/report/?leak=x-csp-report-uri-2"
+x-csp-report-to,X-Content-Security-Policy,"script-src 'self'; report-to=endpoint-2"
+x-webkit-csp-report-uri,X-Webkit-CSP,"script-src 'self'; report-uri https://adition.com/report/?leak=x-webkit-csp-report-uri"

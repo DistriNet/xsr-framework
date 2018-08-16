@@ -1,0 +1,1 @@
+It is recommended to store your WebDrivers in this folder.

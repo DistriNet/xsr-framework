@@ -1,0 +1,1 @@
+importScripts('https://adition.com/s3/script_nested/script.js');

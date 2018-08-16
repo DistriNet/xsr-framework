@@ -1,0 +1,1 @@
+importScripts('https://leak.test/s0/script/script.js');

@@ -1,0 +1,18 @@
+"<a ping="http://leaking.via/a-ping" href="http://leaking.via/a-href">CLICKME</a>"
+"<img src="black.jpg" width="145" height="126" usemap="#map">
+<map name="map">
+<area ping="http://leaking.via/area-ping" shape="rect" coords="0,0,150,150" href="#">
+</map>"
+"<img src="#" longdesc="https://leaking.via/img-longdesc">"
+"<form id="test"></form><button form="test" formaction="https://leaking.via/button-formaction">CLICKME</button>"
+"<isindex action="https://leaking.via/isindex-action"></isindex>
+<form id="index1"></form><isindex type="submit" formaction="https://leaking.via/isindex-formaction" form="index1"></isindex>"
+"<p contextmenu="a">Right Click</p>
+<menu type="context" id="a">
+    <menuitem label="a" icon="https://leaking.via/menuitem-icon"></menuitem>
+</menu>"
+"<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <a xlink:href="https://leaking.via/svg-a-text/"><text transform="translate(0,20)">CLICKME</text></a>
+</svg>"
+"<math xlink:href="https://leaking.via/mathml-math">CLICKME</math>"
+"<math><mi xlink:href="https://leaking.via/mathml-mi">CLICKME</mi></math>"
